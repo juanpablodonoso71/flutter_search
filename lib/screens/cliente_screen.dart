@@ -46,7 +46,7 @@ class _ClientesScreenBody extends StatelessWidget {
                     imageQuality: 60);
 
                 if (xFile == null) {
-                  print('No seleccionó nada');
+                  print('No no seleccionó nada');
                   return;
                 }
 
