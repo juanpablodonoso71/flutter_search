@@ -34,7 +34,6 @@ class HomeScreen extends StatelessWidget {
                 clientesService.selectedCliente =
                     clientesService.clientes[index].copy();
 
-                //Navigator.pushNamed(context, 'camisa');
                 Navigator.pushNamed(context, 'cliente');
               },
               child: ClienteCard(
